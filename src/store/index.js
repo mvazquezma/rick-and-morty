@@ -18,12 +18,25 @@ export default createStore({
       try {
         const response = await fetch('https://rickandmortyapi.com/api/character')
         const data = await response.json()
-        console.log(data)
         commit('setCharacters', data.results)
         commit('setCharactersFilter', data.results)
       } catch (error) {
         console.error(error)
       }
+    },
+    filterByStatus({commit, state}, status) {
+      const filter = state.characters.filter(character => character.status.includes(status))
+      commit('setCharactersFilter', filter)
+    },
+    filterByName({commit, state}, name) {
+      const formatName = name.toLowerCase()
+      const filter = state.characters.filter((character) => {
+        const characterName = character.name.toLowerCase()
+        if(characterName.includes(formatName)) {
+          return character
+        }
+      })
+      commit('setCharactersFilter', filter)
     }
   },
   modules: {

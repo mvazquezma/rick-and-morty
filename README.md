@@ -2,8 +2,8 @@
 
 # Description 
 
-Curso Udemy: Vue 3 - Composition API - Vuex
-Developing a web app getting the Rick and Morty API and coded with VUE 3, Composition API, Vuex
+- Curso Udemy: Vue 3 - Composition API - Vuex
+- Developing a web app getting the Rick and Morty API and coded with VUE 3, Composition API, Vuex
 
 ## Project setup
 ```
