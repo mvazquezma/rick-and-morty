@@ -4,8 +4,8 @@
 
 Developing a web app getting the Rick and Morty API and coded with VUE 3, Composition API, Vuex
 - Udemy course: 
-- - url: https://www.udemy.com/course/vue-3-composition-api-vuex-api-rest-rick-and-morty/
-- - Vue 3 - Composition API, Vuex, API Rest
+    - url: https://www.udemy.com/course/vue-3-composition-api-vuex-api-rest-rick-and-morty/
+    - Vue 3 - Composition API, Vuex, API Rest
 
 ## Project setup
 ```
