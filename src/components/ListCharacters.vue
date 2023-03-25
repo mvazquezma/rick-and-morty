@@ -38,6 +38,6 @@ export default {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 3rem;
   margin: 3rem auto;
-  padding-inline: 14rem;
+  padding-inline: 11rem;
 }
 </style>
